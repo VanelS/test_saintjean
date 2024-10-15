@@ -4,7 +4,7 @@ import joblib
 import pandas as pd
 
 # Charger le modèle entraîné avec Joblib
-model = joblib.load('logistic_regression_model.joblib')
+model = joblib.load('src/models/bin/logistic_regression_model.joblib')
 
 
 # Créer l'application FastAPI
